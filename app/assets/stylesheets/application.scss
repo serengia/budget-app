@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+:root {
+  --color-primary: #3878c2;
+  --color-secondary: #60b524;
+  --color-text: #434c55;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.row {
+  width: 95%;
+  margin: 0 auto;
+}
