@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Recipe app] <a name="about-project"></a>
+# 📖 Budget App <a name="about-project"></a>
 
-**[Recipe app]** it is about cooking recipes and you can add or delete recipes
+**Budget App** it is about cooking recipes and you can add or delete recipes
 
 ## 🛠 Built With <a name="built-with"></a>
 
