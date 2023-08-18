@@ -29,6 +29,7 @@ gem "jbuilder"
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'devise', '~> 4.9', '>= 4.9.2'
+gem 'shrine'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
