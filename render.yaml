@@ -415,8 +415,8 @@ Create a file named render.yaml at the root of your directory with the following
 
 databases:
   - name: mysite
-    databaseName: mysite
-    user: mysite
+    databaseName: sere_rails_pg_db
+    user: sere_rails_pg_db_user
 
 services:
   - type: web
@@ -427,7 +427,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: mysite
+          name: sere_rails_pg_db
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
