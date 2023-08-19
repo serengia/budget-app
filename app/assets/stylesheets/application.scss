@@ -22,30 +22,6 @@
   --color-text: #434c55;
 }
 
-// *,
-// *::before,
-// *::after {
-//   box-sizing: border-box;
-//   padding: 0;
-//   margin: 0;
-// }
-
-// html {
-//   font-size: 62.5%;
-// }
-
-// body {
-//   font-family: "Inter", sans-serif;
-//   font-size: 1.6rem;
-//   line-height: 1.5;
-//   color: var(--color-text);
-// }
-
-// .row {
-//   width: 95%;
-//   margin: 0 auto;
-// }
-
 * {
   box-sizing: border-box;
   font-family: "Proxima Nova", sans-serif;
@@ -57,7 +33,6 @@
 body {
   background-color: #f7f7f7;
   padding: 0 5px;
-  //   height: 90vh;
 }
 
 .material-icons.md-18 {
@@ -99,7 +74,7 @@ body {
 .add-cat-btn,
 .add-trans-btn,
 .save-btn {
-  background-color: #5fb523;
+  background-color: var(--color-secondary);
   color: white;
   border: 1px solid white;
   border-radius: 3px;
@@ -112,7 +87,7 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #5fb523;
+  background-color: var(--color-secondary);
   color: white;
   text-align: center;
   padding: 20px;
@@ -132,7 +107,7 @@ body {
 .signup-btn:hover {
   width: 500px;
   color: white;
-  background-color: #3778c2;
+  background-color: var(--color-primary);
   padding: 15px 100px;
   border-radius: 5px;
   margin: 0 auto;
@@ -161,11 +136,10 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #3778c2;
+  background-color: var(--color-primary);
   width: 100%;
   padding: 10px;
   color: white;
-  //   height: auto;
 }
 
 nav a {
