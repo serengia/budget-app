@@ -48,8 +48,10 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Video demo: [Live video Demo](https://www.loom.com/share/d195768906d34acebe18aa7b9f1f76f2?sid=c751e9f7-3ebd-426b-b817-a22277d7cb5e)
-Live app: [Live deployed App]()
+## Live App Demo
+
+- Live app: [Live deployed App](https://budgeta-app.onrender.com)
+- Video demo: [Live video Demo](https://www.loom.com/share/d195768906d34acebe18aa7b9f1f76f2?sid=c751e9f7-3ebd-426b-b817-a22277d7cb5e)
 
 <!-- GETTING STARTED -->
 
